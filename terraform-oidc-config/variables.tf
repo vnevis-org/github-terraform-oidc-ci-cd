@@ -1,6 +1,6 @@
 variable "prefix" {
   type    = string
-  default = "github-oidc-demo"
+  default = "github-oidc-vne-poc"
 }
 
 variable "location" {
@@ -15,12 +15,12 @@ variable "github_token" {
 
 variable "github_organisation_target" {
   type    = string
-  default = "my_organisation"
+  default = "vnevis"
 }
 
 variable "github_organisation_template" {
   type    = string
-  default = "Azure-Samples"
+  default = "vnevis-org"
 }
 
 variable "github_repository_template" {
