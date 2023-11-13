@@ -15,7 +15,7 @@ variable "github_token" {
 
 variable "github_organisation_target" {
   type    = string
-  default = "vnevis"
+  default = "vnevis-org"
 }
 
 variable "github_organisation_template" {
