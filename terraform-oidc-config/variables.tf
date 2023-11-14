@@ -15,7 +15,7 @@ variable "github_token" {
 
 variable "github_organisation_target" {
   type    = string
-  default = "vnevis-org"
+  default = "vnevis"
 }
 
 variable "github_organisation_template" {
@@ -30,7 +30,8 @@ variable "github_repository_template" {
 
 variable "environments" {
   type    = list(string)
-  default = ["dev", "test", "prod"]
+  #default = ["dev", "test", "prod"]
+  default = ["dev"]
 }
 
 variable "use_managed_identity" {
